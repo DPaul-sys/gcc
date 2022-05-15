@@ -1173,7 +1173,8 @@ case $cpu-$vendor in
 		# Recognize the canonical CPU types that are allowed with any
 		# company name.
 		case $cpu in
-			1750a | 580 \
+			urcl \
+			| 1750a | 580 \
 			| a29k \
 			| aarch64 | aarch64_be \
 			| abacus \
